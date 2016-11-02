@@ -1,7 +1,21 @@
 # json2ts for Visual Studio Code
+
+## Changes
+First character of key is not converted to lower case.
+
 ## Installation 
-json2ts is a VSCode Extension which converts a JSON to TypeScript interfaces.
-You can browse and install extensions from within VS Code. Press `Ctrl+P` and narrow down the list commands by typing `ext install json2ts`.
+~~json2ts is a VSCode Extension which converts a JSON to TypeScript interfaces.
+You can browse and install extensions from within VS Code. Press `Ctrl+P` and narrow down the list commands by typing `ext install json2ts`.~~
+
+1.clone this project or download zip
+
+2.run npm install & npm install vsce -g
+
+3.run vsce package
+
+4.run code --install-extension json2ts-0.0.6.vsix
+
+5.restart vscode
 
 ### Usage
 json2ts converts a JSON from clipboard to TypeScript interfaces with `cmd+alt+V` or `ctrl+alt+V`.
